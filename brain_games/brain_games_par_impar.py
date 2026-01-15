@@ -2,7 +2,7 @@ from brain_games.cli import welcome_user
 import random
 
 
-def is_even(number):
+def is_even():
     name = welcome_user()
     
     print('Answer "even" if the number is even, otherwise answer "odd".')
@@ -17,9 +17,9 @@ def is_even(number):
         answer = input('Your answer: ').strip().lower()
 
         if number % 2 == 0:
-            correct_answer = 'even'
+            correct_answer = 'yes'
         else:
-            correct_answer = 'odd'
+            correct_answer = 'no'
 
         if answer == correct_answer:
             print('Correct!')
@@ -32,4 +32,4 @@ def is_even(number):
     print(f'Congratulations, {name}!')
 
 if __name__ == "__main__":
-    is_even(None)
+    is_even()
