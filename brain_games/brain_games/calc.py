@@ -4,6 +4,7 @@ import random
 def generate_round():
     num1 = random.randint(1, 20)
     num2 = random.randint(1, 10)
+
     operation = random.choice(['+', '-', '*'])
 
     question = f"{num1} {operation} {num2}"
