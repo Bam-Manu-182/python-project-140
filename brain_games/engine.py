@@ -7,7 +7,7 @@ def run_game(instruction, get_round_data):
 
     correct_answers = 0
     total_rounds = 3
-    
+
     while correct_answers < total_rounds:
         question, correct_answer = get_round_data()
         print(f"Question: {question}")
