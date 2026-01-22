@@ -46,7 +46,7 @@ Instrucciones de instalación y ejecución.
 
 Escribe en la terminal el siguiente código para la ejecucion e inicio de cada juego:
 
-- Par o Impar = python -m brain_games.brain_games.brain_games_par_impar
+- Par o Impar = python -m brain_games.games.even
 
 - Calculadora = python -m brain_games.scripts.brain_calc
 

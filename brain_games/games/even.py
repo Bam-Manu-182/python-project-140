@@ -2,7 +2,7 @@ from brain_games.cli import welcome_user
 import random
 
 
-def is_even():
+def even():
     name = welcome_user()
 
     print('Answer "even" if the number is even, otherwise answer "odd".')

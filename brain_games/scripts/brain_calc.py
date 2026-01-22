@@ -1,4 +1,4 @@
-from brain_games.brain_games.calc import generate_round
+from brain_games.games.calc import generate_round
 from brain_games.engine import run_game
 
 
