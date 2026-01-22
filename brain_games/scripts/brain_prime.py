@@ -13,7 +13,7 @@ def is_prime(number):
     return True
 
 
-def play_prime():
+def main():
     name = welcome_user()
 
     print("Answer 'yes' if given number is prime. Otherwise answer 'no'.")
@@ -42,4 +42,4 @@ def play_prime():
 
 
 if __name__ == "__main__":
-    play_prime()
+    main()

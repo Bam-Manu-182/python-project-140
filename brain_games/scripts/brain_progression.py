@@ -21,7 +21,7 @@ def generate_progression():
     return ' '.join(progression), correct_answer
 
 
-def play_progression():
+def main():
     name = welcome_user()
 
     print("What number is missing in the progression?")
@@ -49,4 +49,4 @@ def play_progression():
 
 
 if __name__ == "__main__":
-    play_progression()
+    main()
