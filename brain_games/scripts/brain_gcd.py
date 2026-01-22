@@ -1,6 +1,5 @@
 from brain_games.cli import welcome_user
 import random
-import math
 
 
 def get_gcd(num1, num2):
