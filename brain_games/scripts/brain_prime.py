@@ -1,5 +1,5 @@
-from brain_games.cli import welcome_user
 import random
+from brain_games.cli import welcome_user
 
 
 def is_prime(number):
@@ -14,9 +14,11 @@ def is_prime(number):
 
 
 def main():
+    print("Welcome to the Brain Games!")
+
     name = welcome_user()
 
-    print("Answer 'yes' if given number is prime. Otherwise answer 'no'.")
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
     rounds_to_win = 3
 
@@ -33,8 +35,9 @@ def main():
             print("Correct!")
 
         else:
-            print(f"'{user_answer}' is wrong answer ;(. "
+            print(f"'{user_answer}' is wrong answer; (. "
                   f"Correct answer was '{correct_answer}'.")
+
             print(f"Let's try again, {name}!")
             return
 
